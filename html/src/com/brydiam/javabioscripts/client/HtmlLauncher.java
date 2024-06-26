@@ -3,7 +3,6 @@ package com.brydiam.javabioscripts.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.brydiam.javabioscripts.JavaBioScriptsGame;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -17,6 +16,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-                return new JavaBioScriptsGame();
+                throw new RuntimeException("NOT IMPLEMENTED!!!");
         }
 }
