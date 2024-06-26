@@ -37,7 +37,7 @@ public class MapGame extends ApplicationAdapter {
     @Override
     public void create() {
         soundManager = SoundManager.getInstance();
-        soundManager.loadSound("walk", Gdx.audio.newSound(Gdx.files.internal("sounds/swim.ogg")));
+        soundManager.loadSound("walk", Gdx.audio.newSound(Gdx.files.internal("sounds/grass.ogg")));
 
         batch = new SpriteBatch();
         mapTexture = new Texture("map.jpg"); // Imagen del mapa
